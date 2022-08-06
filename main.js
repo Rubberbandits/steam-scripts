@@ -59,7 +59,7 @@ client.on('loggedOn', function(details) {
 	/*let index = 0
 	redeemKey(client, keys, index)*/
 
-	client.gamesPlayed(10, function(err){
+	client.gamesPlayed([10, 730, 240], function(err){
 		if (err) {
 			console.log(err)
 		}
